@@ -1,0 +1,140 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ .countdown{
+   margin:  0 20vw;
+ }
+ .countdownContainer{
+      width: 50vw;
+			text-align: center;
+
+		}
+
+.info {
+			font-size: 30px;
+      text-align: center;
+		}
+
+.pricing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .columns {
+
+     width: 45%;
+     padding: 8px;
+     margin-bottom: 20px;
+ }
+
+ .price {
+     list-style-type: none;
+     border: 1px solid #eee;
+     margin: 0;
+     padding: 0;
+     -webkit-transition: 0.3s;
+     transition: 0.3s;
+ }
+
+ .price:hover {
+     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+ }
+
+ .price .header {
+     background-color: #111;
+     color: white;
+     font-size: 25px;
+ }
+
+ .price li {
+     border-bottom: 1px solid #eee;
+     padding: 20px;
+     text-align: center;
+ }
+
+ .price .grey {
+     background-color: #eee;
+     font-size: 20px;
+ }
+
+ .button {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 10px 25px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 18px;
+ }
+
+ @media only screen and (max-width: 600px) {
+     .columns {
+         width: 100%;
+     }
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.titling{
+  width: 10vw;
+}
+.title{
+  color: white;
+}
+nav img{
+  width: 10vw;
+}
+.intro h2{
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

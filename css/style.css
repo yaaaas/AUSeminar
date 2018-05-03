@@ -76,7 +76,12 @@
          width: 100%;
      }
  }
-
+body{
+  text-align:center;
+}
+.nocenter{
+  text-align: left;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
